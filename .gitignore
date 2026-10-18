@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Geheimen: wachtwoorden van je database
+.env
+
+# Testtools
+.pytest_cache/
+
+# Gedownloade data (de echte opslag is Postgres)
+data/
